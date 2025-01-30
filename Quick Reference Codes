@@ -1,0 +1,21 @@
+##This file will contain short code lists for commonly required functions, particularly in regards to using git and loading libraries
+
+##Package runner##
+install.packages("tidyverse", "usethis", "skimr")
+library(tidyverse)
+library(usethis)
+library(skimr)
+
+##git activator##
+git clone <>
+## Must be done in terminal. In place of <>, use the https link of your repo obtained from github. Ideally, set your working directory to your repo folder first
+
+##git quick upload##
+git add -A
+git commit -m "Version update"
+git push
+
+## Plot construction ##
+p <- ggplot(data = d, aes(x="", y=log(Body_mass_female_mean))) + geom_boxplot(na.rm = TRUE) + geom_jitter(col = "blue")
+## ggplot allows you to create more complex plots. aes requires two arguments: x value and y value. the "+ geom_" function adds an additional plot layer to
+the overall plot structure. In this case, it superimposes a boxplot of the data with a jitter plot of individual data points.##
