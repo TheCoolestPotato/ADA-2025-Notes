@@ -1,0 +1,10 @@
+## 5-number summary:
+  1) the sample minimum
+  2) the lower or first quartile
+  3) the median
+  4) the upper quartile or third quartile
+  5) the sample maximum ##
+  ## Will need to download "Country-Data-2016" dataset, will need to write a code to load that data into a data frame labeled "d"
+    -It may be ideal to upload the data file into this repo then assign file paths to github locale
+  will summarize the variables: how many variables, how many observations, how many countries, median area and pop size for each country, create a new density variable defined by pop / area. Which are the 10 most dense, or 10 least dense? ##
+  
